@@ -1,0 +1,77 @@
+.backTop {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #37475a;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+
+  a {
+    display: block;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #485769;
+  }
+}
+
+.present {
+  background-color: #232f3e;
+
+  >div {
+    padding: 32px 0;
+  }
+
+  >div:first-child {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #3a4553;
+    color: #fff;
+    line-height: 1.6;
+
+    >dl:nth-child(2) {
+      margin: 0 90px;
+    }
+
+    dd a {
+      font-size: 14px;
+      color: #ddd;
+    }
+  }
+
+  >div:last-child {
+    text-align: center;
+    font-size: 12px;
+
+    a {
+      color: #ddd;
+      margin-right: 12px;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.navLink {
+  background-color: #131A22;
+  font-size: 12px;
+  color: #ddd;
+  padding: 25px 0;
+  text-align: center;
+  line-height: 42px;
+
+  a {
+    color: #ddd;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p:not(:last-of-type) a:nth-of-type(2) {
+    margin: 0 12px;
+  }
+}

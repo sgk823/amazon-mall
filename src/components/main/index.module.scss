@@ -1,0 +1,28 @@
+.container {
+  background-color: #eaeded;
+  min-height: 700px;
+}
+
+.banner {
+  width: 1500px;
+  margin: auto;
+}
+
+.content {
+  width: 1480px;
+  margin: auto;
+
+  >div:first-child, >div:nth-of-type(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    >div {
+      margin-bottom: 25px;
+    }
+  }
+
+  >div:first-child {
+    margin-top: -300px;
+  }
+}
